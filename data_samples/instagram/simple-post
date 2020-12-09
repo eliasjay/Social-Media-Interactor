@@ -1,0 +1,262 @@
+Page {
+  eventsMap: Map {},
+  emitter: {
+    all: Map {},
+    on: [Function: on],
+    off: [Function: off],
+    emit: [Function: emit]
+  },
+  _closed: false,
+  _timeoutSettings: TimeoutSettings {
+    _defaultTimeout: null,
+    _defaultNavigationTimeout: null
+  },
+  _pageBindings: Map {},
+  _javascriptEnabled: true,
+  _workers: Map {},
+  _fileChooserInterceptors: Set {},
+  _client: CDPSession {
+    eventsMap: Map {
+      'Fetch.requestPaused' => [Array],
+      'Fetch.authRequired' => [Array],
+      'Network.requestWillBeSent' => [Array],
+      'Network.requestServedFromCache' => [Array],
+      'Network.responseReceived' => [Array],
+      'Network.loadingFinished' => [Array],
+      'Network.loadingFailed' => [Array],
+      'Page.frameAttached' => [Array],
+      'Page.frameNavigated' => [Array],
+      'Page.navigatedWithinDocument' => [Array],
+      'Page.frameDetached' => [Array],
+      'Page.frameStoppedLoading' => [Array],
+      'Runtime.executionContextCreated' => [Array],
+      'Runtime.executionContextDestroyed' => [Array],
+      'Runtime.executionContextsCleared' => [Array],
+      'Page.lifecycleEvent' => [Array],
+      'Target.attachedToTarget' => [Array],
+      'Target.detachedFromTarget' => [Array],
+      'Page.domContentEventFired' => [Array],
+      'Page.loadEventFired' => [Array],
+      'Runtime.consoleAPICalled' => [Array],
+      'Runtime.bindingCalled' => [Array],
+      'Page.javascriptDialogOpening' => [Array],
+      'Runtime.exceptionThrown' => [Array],
+      'Inspector.targetCrashed' => [Array],
+      'Performance.metrics' => [Array],
+      'Log.entryAdded' => [Array],
+      'Page.fileChooserOpened' => [Array],
+      Symbol(CDPSession.Disconnected) => []
+    },
+    emitter: {
+      all: [Map],
+      on: [Function: on],
+      off: [Function: off],
+      emit: [Function: emit]
+    },
+    _callbacks: Map {},
+    _connection: Connection {
+      eventsMap: [Map],
+      emitter: [Object],
+      _lastId: 16,
+      _sessions: [Map],
+      _closed: false,
+      _callbacks: Map {},
+      _url: 'ws://127.0.0.1:61540/devtools/browser/48468d9a-4a77-4e0a-b1e6-a5c42964aff9',
+      _delay: 0,
+      _transport: [NodeWebSocketTransport]
+    },
+    _targetType: 'page',
+    _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+  },
+  _target: Target {
+    _targetInfo: {
+      targetId: '91E498D30D3B04373E94B4D4EA02F30E',
+      type: 'page',
+      title: 'NBA Brasil no Instagram: “Comemorando o 35º aniversário de @dwighthoward, confira as MELHORES JOGADAS da carreira do Superman! �� ⠀ Qual é a sua preferida? ⠀ #NBABDAY”',
+      url: 'https://www.instagram.com/p/CIjYL1MJThP/',
+      attached: true,
+      canAccessOpener: false,
+      browserContextId: '04629458AEC71C5A295E632F030A7934'
+    },
+    _browserContext: BrowserContext {
+      eventsMap: Map {},
+      emitter: [Object],
+      _connection: [Connection],
+      _browser: [Browser],
+      _id: null
+    },
+    _targetId: '91E498D30D3B04373E94B4D4EA02F30E',
+    _sessionFactory: [Function],
+    _ignoreHTTPSErrors: false,
+    _defaultViewport: { width: 800, height: 600 },
+    _pagePromise: Promise { [Circular] },
+    _workerPromise: null,
+    _initializedCallback: [Function],
+    _initializedPromise: Promise { true },
+    _closedCallback: [Function],
+    _isClosedPromise: Promise { <pending> },
+    _isInitialized: true
+  },
+  _keyboard: Keyboard {
+    _modifiers: 0,
+    _pressedKeys: Set {},
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    }
+  },
+  _mouse: Mouse {
+    _x: 0,
+    _y: 0,
+    _button: 'none',
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    },
+    _keyboard: Keyboard {
+      _modifiers: 0,
+      _pressedKeys: Set {},
+      _client: [CDPSession]
+    }
+  },
+  _touchscreen: Touchscreen {
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    },
+    _keyboard: Keyboard {
+      _modifiers: 0,
+      _pressedKeys: Set {},
+      _client: [CDPSession]
+    }
+  },
+  _accessibility: Accessibility {
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    }
+  },
+  _frameManager: FrameManager {
+    eventsMap: Map {
+      Symbol(FrameManager.FrameAttached) => [Array],
+      Symbol(FrameManager.FrameDetached) => [Array],
+      Symbol(FrameManager.FrameNavigated) => [Array],
+      Symbol(FrameManager.LifecycleEvent) => [],
+      Symbol(FrameManager.FrameNavigatedWithinDocument) => []
+    },
+    emitter: {
+      all: [Map],
+      on: [Function: on],
+      off: [Function: off],
+      emit: [Function: emit]
+    },
+    _frames: Map { '91E498D30D3B04373E94B4D4EA02F30E' => [Frame] },
+    _contextIdToContext: Map { 3 => [ExecutionContext], 4 => [ExecutionContext] },
+    _isolatedWorlds: Set { '__puppeteer_utility_world__' },
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    },
+    _page: [Circular],
+    _networkManager: NetworkManager {
+      eventsMap: [Map],
+      emitter: [Object],
+      _requestIdToRequest: [Map],
+      _requestIdToRequestWillBeSentEvent: Map {},
+      _extraHTTPHeaders: {},
+      _offline: false,
+      _credentials: null,
+      _attemptedAuthentications: Set {},
+      _userRequestInterceptionEnabled: false,
+      _protocolRequestInterceptionEnabled: false,
+      _userCacheDisabled: false,
+      _requestIdToInterceptionId: Map {},
+      _client: [CDPSession],
+      _ignoreHTTPSErrors: false,
+      _frameManager: [Circular]
+    },
+    _timeoutSettings: TimeoutSettings {
+      _defaultTimeout: null,
+      _defaultNavigationTimeout: null
+    },
+    _mainFrame: Frame {
+      _url: 'https://www.instagram.com/p/CIjYL1MJThP/',
+      _detached: false,
+      _loaderId: 'BAFD2678FB9011A7BD48ED37A634046E',
+      _lifecycleEvents: [Set],
+      _frameManager: [Circular],
+      _parentFrame: null,
+      _id: '91E498D30D3B04373E94B4D4EA02F30E',
+      _mainWorld: [DOMWorld],
+      _secondaryWorld: [DOMWorld],
+      _childFrames: Set {},
+      _name: undefined
+    }
+  },
+  _emulationManager: EmulationManager {
+    _emulatingMobile: false,
+    _hasTouch: false,
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    }
+  },
+  _tracing: Tracing {
+    _recording: false,
+    _path: '',
+    _client: CDPSession {
+      eventsMap: [Map],
+      emitter: [Object],
+      _callbacks: Map {},
+      _connection: [Connection],
+      _targetType: 'page',
+      _sessionId: 'D15CC2D4681DA4F88A4CEC2838311E7B'
+    }
+  },
+  _coverage: Coverage {
+    _jsCoverage: JSCoverage {
+      _enabled: false,
+      _scriptURLs: Map {},
+      _scriptSources: Map {},
+      _eventListeners: [],
+      _resetOnNavigation: false,
+      _reportAnonymousScripts: false,
+      _client: [CDPSession]
+    },
+    _cssCoverage: CSSCoverage {
+      _enabled: false,
+      _stylesheetURLs: Map {},
+      _stylesheetSources: Map {},
+      _eventListeners: [],
+      _resetOnNavigation: false,
+      _reportAnonymousScripts: false,
+      _client: [CDPSession]
+    }
+  },
+  _screenshotTaskQueue: ScreenshotTaskQueue { _chain: Promise { undefined } },
+  _viewport: { width: 800, height: 600 }
+}
